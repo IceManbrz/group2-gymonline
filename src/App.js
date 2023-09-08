@@ -5,25 +5,30 @@ import './App.css';
 import { useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './routes/Home.jsx';
+import TrainerProfile from './routes/Trainer_profile';
 
 function App() {
   return (
 <>
-      <div className='navbar'>
-        <div className='studentInfo'>
+      <div className="flex items-center justify-center mb-10">
+        <div className=''>
           
-          <h2 className="studentName">Achareeya Wicaksa Putra Pribadi</h2>
-          <p className="studentId">FE2828609</p>
+          <h2 className=""></h2>
           
         </div>
-        <Link to='/'>Home</Link>
-
+        <a href={"/"} target="_blank" rel="noopener noreferrer"  className="mr-4" >
+        <br></br>Home</a>
+        <a href={"/"} target="_blank" rel="noopener noreferrer"  className="mr-4" >
+        <br></br>Booking</a>
+        <a href={"/trainerprofiles"} target="_blank" rel="noopener noreferrer" >
+        <br></br>Trainer</a>
       </div>
     
 
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/trainerprofiles" element={<TrainerProfile />} />
       </Routes>
     </Router>
     </>
