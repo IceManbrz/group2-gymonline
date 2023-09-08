@@ -20,8 +20,9 @@ const PokemonList = () => {
   }, []);
 
   return (
-<div className="mr-24 ml-24">
-  <h1 className="text-2xl font-semibold mb-4">List of Trainer</h1>
+<div className="bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600 min-h-screen flex items-center justify-center">
+<div className="mr-20 ml-20 ">
+  <h1 className="text-2xl font-semibold mb-4 pt-10">mungkin diisi para profil pt</h1>
   {loading ? (
     <p>Loading...</p>
   ) : (
@@ -43,6 +44,7 @@ const PokemonList = () => {
       ))}
     </div>
   )}
+</div>
 </div>
   );
 };
