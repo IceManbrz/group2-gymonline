@@ -11,7 +11,7 @@ const Home = () =>{
         <a
           href="/signup" // Ganti dengan URL tautan ke halaman pendaftaran
           className="bg-yellow-500 hover:bg-yellow-600 text-white font-semibold px-6 py-3 rounded-lg transition duration-300 transform hover:scale-105">
-          Daftar Sekarang
+          Pelajari Sekarang
         </a>
       </header>
       <section className="mt-12">
@@ -19,22 +19,24 @@ const Home = () =>{
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="bg-white p-6 rounded-lg shadow-lg">
             <h3 className="text-xl font-semibold mb-2">Fitur 1</h3>
-            <p className="text-gray-600">Deskripsi fitur 1 yang menarik.</p>
+            <p className="text-gray-600">deskripsi/foto.</p>
           </div>
           <div className="bg-white p-6 rounded-lg shadow-lg">
             <h3 className="text-xl font-semibold mb-2">Fitur 2</h3>
-            <p className="text-gray-600">Deskripsi fitur 2 yang menarik.</p>
+            <p className="text-gray-600">deskripsi/foto.</p>
           </div>
           <div className="bg-white p-6 rounded-lg shadow-lg">
             <h3 className="text-xl font-semibold mb-2">Fitur 3</h3>
-            <p className="text-gray-600">Deskripsi fitur 3 yang menarik.</p>
+            <p className="text-gray-600">deskripsi/foto.</p>
           </div>
         </div>
       </section>
       <footer className="mt-12 text-center text-gray-400">
-        &copy; 2023 Nama Perusahaan. Hak Cipta Dilindungi.
+        &copy; 2023 .
       </footer>
+      
     </div>
+    
   );
 }
 

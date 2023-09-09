@@ -26,7 +26,7 @@ const PokemonList = () => {
   {loading ? (
     <p>Loading...</p>
   ) : (
-    <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-10">
       {pokemonList.map((pokemon, index) => (
         <div
           key={index}
@@ -39,7 +39,8 @@ const PokemonList = () => {
             height="96"
           />
           <h2 className="text-lg font-semibold">{pokemon.name}</h2>
-          <p className="text-gray-600">Description or other details here</p>
+          <p className="text-gray-600">isi lokasi</p>
+          <p className="text-gray-600">isi skill ex:Core,kardio,diet</p>
         </div>
       ))}
     </div>
